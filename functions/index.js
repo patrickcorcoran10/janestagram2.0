@@ -6,7 +6,7 @@ admin.initializeApp();
 const app = require("express")();
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAoC_XfqJL_c3gwLqeZRkTkBPIAa0JpGDU",
+  apiKey: process.env.apiKey,
   authDomain: "janestagram-8af46.firebaseapp.com",
   databaseURL: "https://janestagram-8af46.firebaseio.com",
   projectId: "janestagram-8af46",
